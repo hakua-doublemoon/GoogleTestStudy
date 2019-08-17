@@ -1,2 +1,6 @@
 # GoogleTestStudy
-GoogleTest/Mockの勉強用サンプルです
+GoogleTest/Mockの勉強用サンプルで、下記のページの説明のために作りました。
+https://qiita.com/drafts/0b81cc069b53431df20f
+
+# Lisence
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
