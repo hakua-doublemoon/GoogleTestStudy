@@ -1,0 +1,34 @@
+env = Environment()
+
+env.Program(
+    target='sub_test',
+    CCFLAGS = '-g',
+
+    source = [
+        #"main.c",
+        "sub.c",
+        #"mystr.c",
+        "sub_test.cpp",
+    ],
+
+    LIBPATH = [
+        "../googletest/lib",
+        "../googletest/googlemock/lib",
+    ],
+    LIBS = [
+        'libgtest.a',
+        'libgtest_main.a',
+        'libgmock.a',
+        'libgmock_main.a',
+        'pthread',
+    ],
+    CPPPATH = [
+        '.',
+        '../googletest',
+        '../googletest/googletest',
+        '../googletest/googletest/include',
+        '../googletest/googlemock',
+        '../googletest/googlemock/include',
+    ],
+)
+

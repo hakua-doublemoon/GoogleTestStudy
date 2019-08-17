@@ -6,6 +6,8 @@
 *.lo
 *.o
 *.obj
+example
+sub_test
 
 # Precompiled Headers
 *.gch
@@ -30,3 +32,7 @@
 *.exe
 *.out
 *.app
+
+# other
+/googletest/
+.sconsign.dblite

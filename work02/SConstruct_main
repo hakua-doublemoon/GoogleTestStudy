@@ -1,0 +1,11 @@
+env = Environment()
+
+env.Program(
+    target='example',
+
+    source = [
+        "main.c",
+        "sub.c",
+        "mystr.c",
+    ]
+)
